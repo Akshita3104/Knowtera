@@ -1,0 +1,50 @@
+.pdf-uploader {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* center all children horizontally */
+  gap: 1rem;            /* spacing between items */
+  padding: 1rem;
+}
+
+/* Style the file input container */
+.pdf-uploader input[type="file"] {
+  border: 2px dashed #ccc;
+  padding: 2rem;            /* reduced from 15rem for better usability */
+  border-radius: 10px;
+  align-items: center;  /* center all children horizontally */
+  width: 70%;
+  background-color: #fafafa;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* Center and space the button properly */
+.pdf-uploader button {
+  background-color: #8d72c3;
+  color: white;
+  padding: 0.7rem 1.4rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  /* Remove margin-left, center via flex */
+}
+
+/* Hover effect for button */
+.pdf-uploader button:hover {
+  background-color: #6b4fa1;
+}
+
+/* Summary box */
+.pdf-uploader pre {
+  background: #f0ecfc;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 1rem;
+  white-space: pre-wrap;
+  font-family: 'Courier New', Courier, monospace;
+  color: #444;
+  width: 70%;
+}
