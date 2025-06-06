@@ -6,7 +6,7 @@
 
 ## 🚀 Live Website
 
-## 🔗 [View Live]([https://your-deployment-link.com](https://knowtera-67bk7hgpd-akshita-shettys-projects.vercel.app/))
+## 🔗 [View Live]([https://knowtera.vercel.app/))
 
 ## 📸 Screenshots
 
