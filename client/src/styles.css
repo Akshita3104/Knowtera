@@ -93,3 +93,20 @@ pre {
 .quiz-output {
   font-family: 'Courier New', Courier, monospace;
 }
+.markdown-box {
+  background-color: #f8f5ff;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  color: #444;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+.markdown-box h3, .markdown-box h4 {
+  color: #8d72c3;
+}
+
+.markdown-box strong {
+  color: #6b4fa1;
+}

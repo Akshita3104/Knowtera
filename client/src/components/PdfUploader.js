@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import "../styles/PdfUploader.css";  // Import the CSS file
+import ReactMarkdown from "react-markdown";
+import "../styles/PdfUploader.css";
 
 export default function PdfUploader({ setPdfText }) {
   const [file, setFile] = useState(null);
@@ -33,7 +34,9 @@ export default function PdfUploader({ setPdfText }) {
       {summary && (
         <>
           <h3>Summary:</h3>
-          <pre>{summary}</pre>
+          <div className="markdown-box">
+            <ReactMarkdown>{summary}</ReactMarkdown>
+          </div>
         </>
       )}
     </div>

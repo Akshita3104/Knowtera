@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import ReactMarkdown from "react-markdown";
 
 export default function Chats({ pdfText }) {
   const [question, setQuestion] = useState("");
@@ -35,7 +36,9 @@ export default function Chats({ pdfText }) {
       {answer && (
         <div>
           <h4>Answer:</h4>
-          <p>{answer}</p>
+          <div className="markdown-box">
+            <ReactMarkdown>{answer}</ReactMarkdown>
+          </div>
         </div>
       )}
     </div>
