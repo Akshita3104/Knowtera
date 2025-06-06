@@ -15,7 +15,7 @@ export default function PdfUploader({ setPdfText }) {
     const formData = new FormData();
     formData.append("file", file);
 
-    const res = await fetch("http://localhost:5000/api/pdf/upload", {
+    const res = await fetch("https://knowtera.onrender.com/api/pdf/upload", {
       method: "POST",
       body: formData,
     });

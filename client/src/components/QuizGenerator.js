@@ -9,7 +9,7 @@ export default function QuizGenerator({ pdfText }) {
   const handleGenerateQuiz = async () => {
     setLoading(true);
     try {
-      const res = await axios.post("http://localhost:5000/api/quiz", { pdfText });
+      const res = await axios.post("https://knowtera.onrender.com/api/quiz", { pdfText });
       setQuiz(res.data.quiz);
     } catch (err) {
       setQuiz("Failed to generate quiz.");

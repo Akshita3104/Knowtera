@@ -12,7 +12,7 @@ export default function Chats({ pdfText }) {
 
     setLoading(true);
     try {
-      const res = await axios.post("http://localhost:5000/api/chat", { question });
+      const res = await axios.post("https://knowtera.onrender.com/api/chat", { question });
       setAnswer(res.data.answer);
     } catch (error) {
       console.error(error);
