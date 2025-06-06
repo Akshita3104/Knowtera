@@ -6,7 +6,7 @@
 
 ## 🚀 Live Website
 
-## 🔗 [View Live]([https://knowtera.vercel.app/))
+## 🔗 [View Live](https://knowtera.vercel.app/)
 
 ## 📸 Screenshots
 
