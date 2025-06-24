@@ -40,21 +40,17 @@
 
 ## 💻 Installation & Setup
 
-# 1️⃣ Clone the repo
-
+## Clone the repo
 git clone https://github.com/Akshita3104/Knowtera
 cd client
 
-# 2️⃣ Install frontend dependencies
-
+## Install frontend dependencies
 npm install
 
-# 3️⃣ Start the React frontend
-
+## Start the React frontend
 npm start
 
-# 4️⃣ (Optional) Start your backend
-
+## Start your backend
 cd server
 npm install
 node server.js
